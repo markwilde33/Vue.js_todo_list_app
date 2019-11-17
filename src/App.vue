@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Todos />
+    <Todos v-bind:todos="todos"/>
     <img alt="Vue logo" src="./assets/logo.png" />
   </div>
 </template>
