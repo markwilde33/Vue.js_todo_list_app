@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Todos v-bind:todos="todos"/>
+    <Todos v-bind:todos="todos" />
     <img alt="Vue logo" src="./assets/logo.png" />
   </div>
 </template>
@@ -17,17 +17,17 @@ export default {
       todos: [
         {
           id: 1,
-          title: "Todo One",
+          title: "To Do One",
           complete: false
         },
         {
           id: 2,
-          title: "Todo Two",
-          complete: false
+          title: "To Do Two",
+          complete: true
         },
         {
           id: 3,
-          title: "Todo Three",
+          title: "To Do Three",
           complete: false
         }
       ]
